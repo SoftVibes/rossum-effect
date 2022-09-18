@@ -7,14 +7,24 @@
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(155, 155, 155);
+    background-color: rgb(51, 51, 51);
+}
+
+#heading {
+    width: max-content;
+    margin-inline: auto;
+    color: white;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 #card {
     background-color: red;
     width: 25vw;
     height: 70vh;
-    margin-left: 5vw;
+    margin-inline: auto;
+    margin-top: 2vh;
+    border: 1px solid white;
 }
 
 #rossum {
@@ -29,12 +39,14 @@
     height: 70vh;
     background-color: rgba(255, 128, 149, 0.4);
     opacity: 0;
-    transition: opacity 500ms;
+    transition: opacity 250ms;
 }
 
 #text {
+    color: rgb(221, 221, 221);
+    text-shadow: 5px 5px 5px rgb(51, 51, 51);
     position: absolute;
-    margin-top: 25rem;
+    margin-top: 26rem;
     margin-left: 1rem;
 }
 
