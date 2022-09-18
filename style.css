@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(155, 155, 155);
+}
+
+#card {
+    background-color: red;
+    width: 25vw;
+    height: 70vh;
+    margin-left: 5vw;
+}
+
+#rossum {
+    position: absolute;
+    width: 25vw;
+    height: 70vh;
+}
+
+#overlay {
+    position: absolute;
+    width: 25vw;
+    height: 70vh;
+    background-color: rgba(255, 128, 149, 0.4);
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+#text {
+    position: absolute;
+    margin-top: 25rem;
+    margin-left: 1rem;
+}
+
+#overlay:hover {
+    opacity: 1;
+}
